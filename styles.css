@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    max-width: 100vw;
+}
+.navbar {
+    background-color:#3f3f3f;
+}
+.div-nav {
+    max-width: 1320px;
+}
+.logo {
+    width: 125px;
+}
+.navbar a.compra {
+    color: rgb(9, 184, 61) !important;
+}
+
+.navbar-toggler-button {
+    margin-left: auto; 
+    margin-right: 15px;
+}
+.container-image {
+    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/ba1.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: 0%;
+    width: auto;
+    color: aliceblue;
+}
+.row-image {
+    color: aliceblue;
+    height: 88vh;
+}
+.text-info {
+    background-color:#3f3f3f;
+}
+#formulario {
+    max-width: 96vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card {
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn-categorias {
+    padding: 2px 5px;
+    font-size: 11px;
+    font-weight: 700;
+}
+.form-textarea {
+    font-size: 20px;
+}
+.boton-enviar {
+    background-color: #96C93E; 
+    color: #fff;
+}
+footer {
+    background-color: #1D4054;
+    padding: 20px;
+}
+footer a {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+@media (max-width: 765px){
+    .div-none-mobile{
+        display: none;
+    }
+    .header-info {
+        padding: 20px;
+    }
+}
