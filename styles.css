@@ -47,7 +47,7 @@ body {
 .card {
     margin-left: auto;
     margin-right: auto;
-    width: 22rem; 
+    width: 22rem !important;
     margin-bottom: 25px;
 }
 .btn-categorias {
@@ -79,7 +79,7 @@ footer a {
         padding: 20px;
     }
     .card {
-        width: 18rem; 
+        width: 20rem !important;
         margin-bottom: 22px;
     }
     footer {
