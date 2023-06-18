@@ -1,9 +1,3 @@
-/*
-$(function() {
-    $('[data-toggle="tooltip"]').tooltip()
-})
-*/
-
 const cantidadEntradas = document.getElementById('cantidadEntradas')
 
 const botonCalcular = document.getElementById('botonCalcular')
@@ -13,12 +7,6 @@ const categoria = document.getElementById('inputState')
 const totalCompra = document.getElementById('totalCompra')
 
 function resumen(){
-
-    console.log(categoria.value)
-
-    console.log(cantidadEntradas.value)
-
-    cantidadEntradas.value
 
 if(categoria.value == "estudiante"){
     var valorDescuento = 200 / 100 * 20  
