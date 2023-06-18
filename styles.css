@@ -6,6 +6,9 @@
 body {
     max-width: 100vw;
 }
+.t-pre {
+    white-space: pre;
+}
 .navbar {
     background-color:#3f3f3f;
 }
@@ -18,7 +21,18 @@ body {
 .navbar a.compra {
     color: rgb(9, 184, 61) !important;
 }
-
+.btn a {
+    color: #fff;
+    text-decoration: none;
+}
+.btnbw a {
+    color: #fff;
+    text-decoration: none;
+}
+.btnbw a:hover {
+    color: #000;
+    text-decoration: none;
+}
 .navbar-toggler-button {
     margin-left: auto; 
     margin-right: 15px;
